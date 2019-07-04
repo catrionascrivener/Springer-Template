@@ -1,0 +1,24 @@
+
+To submit this to Springer you need to:
+
+Upload the .tex file and mark it as 'manuscript'
+Upload all of the additional files from the Springer template folder (spbasic.bst,                spmpsci.bst...etc) separately and mark them all as 'manuscript'
+
+Upload the .eps or .pdf image files (whichever you reference in your manuscript) and mark them as 'figure'
+
+These packages should be in the preamble:
+%   \usepackage[T1]{fontenc} 
+%   \usepackage[utf8]{inputenc}
+
+Use this document class for natbib style citations:
+%   \documentclass[natbib]{svjour3}      
+
+Instead of using the normal \bibliography{bibFileName}, insert your bibilography items into
+  the main .tex file. You can copy and paste these from the .bbl file that is created when you
+  compile in overleaf. To access this file, click on 'logs and output' (next to the recompile button); at the bottom of the screen click on 'other logs and files'; then select 'bbl file'. Copy and past the contents of this file into your main .tex file, before end{document}.
+Note the you will need to begin{thebibliography} before the items, and end{thebibliography}.
+
+For more info see this webpage.
+%https://www.overleaf.com/learn/latex/Questions/The_journal_says_%22don%27t_use_BibTeX;_paste_the_contents_of_the_.bbl_file_into_the_.tex_file%22._How_do_I_do_this_on_Overleaf%3F
+
+Important!! Make sure that your bib entries do not use any unusual characters. Use the format \"o \`a etc. for special letters.
