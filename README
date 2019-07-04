@@ -1,0 +1,10 @@
+# Springer template
+
+Here you will find the template for a journal article submission to Springer journals. 
+Although Springer provides a template, I still had multiple issues getting it to compile on their system.
+This edited template should remove these issues.
+
+Within this folder you will find a .tex file called 'SubmittingToSpringer.tex'. 
+More details on how to get your submission to compile correctly can be found here.
+
+For more info on using Overleaf and LaTeX, please see my other templates available on Github.
